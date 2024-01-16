@@ -1,9 +1,7 @@
 # Awesome Extension Manager
 
-
-
 awesome extension manager
-- [ ] open source
+- [x] open source
 - [ ] great ux
 
 features:
@@ -19,3 +17,4 @@ features:
 - [ ] quick installing from extension list
 - [ ] popup view
 - [ ] open tab view
+- [ ] cross-browser

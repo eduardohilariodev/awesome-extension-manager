@@ -11,7 +11,7 @@ features:
 - [ ] search store
 - [ ] create groups
 - [ ] enable/disable extension groups
-- [ ] activate extension per url
+- [ ] activate extension/group per url
 - [ ] keyboard shortcuts
 - [ ] settings backup (import/export/cloud)
 - [ ] quick installing from extension list

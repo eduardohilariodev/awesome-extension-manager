@@ -17,3 +17,5 @@ features:
 - [ ] keyboard shortcuts
 - [ ] settings backup (import/export/cloud)
 - [ ] quick installing from extension list
+- [ ] popup view
+- [ ] open tab view

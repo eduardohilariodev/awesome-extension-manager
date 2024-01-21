@@ -6,6 +6,9 @@
   "author": "Eduardo Hilário <48762158+eduardohilariodev@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
-    "chrome-types": "^0.1.252"
-  }
+    "chrome-types": "^0.1.252",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "yarn@4.0.2"
 }

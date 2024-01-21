@@ -1,9 +1,7 @@
 # Awesome Extension Manager
 
-
-
 awesome extension manager
-- [ ] open source
+- [x] open source
 - [ ] great ux
 
 features:
@@ -13,9 +11,10 @@ features:
 - [ ] search store
 - [ ] create groups
 - [ ] enable/disable extension groups
-- [ ] activate extension per url
+- [ ] activate extension/group per url
 - [ ] keyboard shortcuts
 - [ ] settings backup (import/export/cloud)
 - [ ] quick installing from extension list
 - [ ] popup view
 - [ ] open tab view
+- [ ] cross-browser

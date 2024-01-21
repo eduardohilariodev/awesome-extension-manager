@@ -1,10 +1,12 @@
 # Awesome Extension Manager
 
 awesome extension manager
+
 - [x] open source
 - [ ] great ux
 
 features:
+
 - [ ] enable/disable extensions
 - [ ] sort/order/classify
 - [ ] filter extensions
@@ -18,3 +20,6 @@ features:
 - [ ] popup view
 - [ ] open tab view
 - [ ] cross-browser
+- [ ] multi-language
+- [ ] pin extensions
+- [ ] chrome ui

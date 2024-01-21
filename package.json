@@ -1,0 +1,11 @@
+{
+  "name": "awesome-extension-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eduardohilariodev/awesome-extension-manager.git",
+  "author": "Eduardo Hilário <48762158+eduardohilariodev@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chrome-types": "^0.1.252"
+  }
+}

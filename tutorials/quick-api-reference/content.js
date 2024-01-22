@@ -1,8 +1,12 @@
 "use strict";
 (async () => {
-  const { tip } = await chrome.runtime.sendMessage({ greeting: "tip" });
-  const nav = document.querySelector(".navigation-rail__links");
-  const tipWidget = createDomElement(`
+    const { tip } = await chrome.runtime.sendMessage({ greeting: "tip" });
+    const nav = document.querySelector(".navigation-rail__links");
+    const createDomElement = (html) => {
+        const dom = new DOMParser().parseFromString(html, "text/html");
+        return dom.body.firstElementChild ?? "";
+    };
+    const tipWidget = createDomElement(`
     <button class="navigation-rail__link" popovertarget="tip-popover" popovertargetaction="show" style="padding: 0; border: none; background: none;>
       <div class="navigation-rail__icon">
         <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -12,11 +16,7 @@
       <span>Tip</span>
     </button>
   `);
-  const popover = createDomElement(`<div id='tip-popover' popover>${tip}</div>`);
-  document.body.append(popover);
-  nav?.append(tipWidget);
+    const popover = createDomElement(`<div id='tip-popover' popover>${tip}</div>`);
+    document.body.append(popover);
+    nav?.append(tipWidget);
 })();
-function createDomElement(html) {
-  const dom = new DOMParser().parseFromString(html, "text/html");
-  return dom.body.firstElementChild;
-}
